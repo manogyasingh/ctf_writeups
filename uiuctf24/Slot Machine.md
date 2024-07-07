@@ -54,8 +54,8 @@ Thankfully we're not the only ones doing this. The Bitcoin Cluster has also been
 
 ![Smallest BTC Hashes](https://github.com/manogyasingh/ctf_writeups/blob/main/uiuctf24/MEDIA/Pasted%20image%2020240707215701.png)
 
-So BTC already has found a header which when hashed yields 24 digits of pure bliss (zeroes!)
-We can now lookup `bitcoin hash 756951` on `lohkoketju.fi` to find all the info needed to make its header
+So BTC already has found a header which start with 24 digits of pure bliss (zeroes!)
+We can now lookup `bitcoin block 756951` on `lohkoketju.fi` (a random site i found while searching for it) to find all the info needed to make its header
 
 ![Info on Block 756951](https://github.com/manogyasingh/ctf_writeups/blob/main/uiuctf24/MEDIA/Pasted%20image%2020240707215746.png)
 
