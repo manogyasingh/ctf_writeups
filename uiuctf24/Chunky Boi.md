@@ -10,6 +10,7 @@ Flag format clarification: The last digit of the first coordinate is even, and t
 
 #### What do we see
 So the subject is clearly the Globemaster (description calls it a BIG plane)
+It's Wikipedia page is titled: Boeing C-17 Globemaster III
 Zooming in, its fleet number can be seen on the tail as: 77182
 
 some mountain-like vegetation can also be seen
