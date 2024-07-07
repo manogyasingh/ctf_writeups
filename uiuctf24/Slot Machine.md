@@ -144,5 +144,5 @@ uiuctf{keep_going!_3cyd}
 
 ```
 
-And so we get out flag:
+And so we get our flag:
 `uiuctf{keep_going!_3cyd}`
