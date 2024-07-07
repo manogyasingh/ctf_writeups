@@ -44,7 +44,7 @@ else:
 
 ## Solution
 #### What does the code do?
-Clearly its first asking us for a number n, then an n digit hex string and then its calculating its SHA-256 hash. If the first n characters of the hash are the same, we'll get our flag. 
+Clearly its first asking us for a hexadecimal value, and then a number. if the first _that many_  digits in its SHA256 hash are the same, we'll get the first _that many_ characters of our flag 
 
 #### What can **we** do?
 Obviously we can't start with a hash and then find its primitive since SHA256 is cryptographic. (non reversible) Our best bet is therefore to literally just start guessing till we find a string where the same character is repeated many times. Unfortunately the probability of finding a string with the same char repeated, say 20 times is `1 in 2^(4*19)` That's literally 1 followed by 24 zeroes. 
