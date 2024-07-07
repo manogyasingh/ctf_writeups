@@ -143,6 +143,7 @@ Light Value                     : 14.8
 That's an ocean of data but the most relevant thing here is
 
 ` Create Date                      : 2024:05:11 16:44:28`
+
 ` Offset Time                      : -07:00`
 
 So we now have both the time of creation and the time zone where this photo was taken.
