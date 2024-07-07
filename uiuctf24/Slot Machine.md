@@ -52,7 +52,7 @@ Obviously we can't start with a hash and then find its primitive since SHA256 is
 #### The Saviour
 Thankfully we're not the only ones doing this. The Bitcoin Cluster has also been obsessing over hashes with lots of zeroes for a long while now. We can search for the BTC hash with the most leading zeroes, or more precisely `smallest BTC hash` and find this:
 
-![Smallest BTC Hashes](https://github.com/manogyasingh/ctf_writeups/blob/main/uiuctf24/MEDIA/Pasted%20image%20240707215701.png)
+![Smallest BTC Hashes](https://github.com/manogyasingh/ctf_writeups/blob/main/uiuctf24/MEDIA/Pasted%20image%2020240707215701.png)
 
 So BTC already has found a header which when hashed yields 24 digits of pure bliss (zeroes!)
 We can now lookup `bitcoin hash 756951` on `lohkoketju.fi` to find all the info needed to make its header
