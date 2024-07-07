@@ -11,7 +11,8 @@ Flag format clarification: The last digit of the first coordinate is even, and t
 #### What do we see
 So the subject is clearly the Globemaster (description calls it a BIG plane)
 Zooming in, its fleet number can be seen on the tail as: 77182
-some mountain-like vegetation can also be seen (this will help later)
+
+some mountain-like vegetation can also be seen
 also we know which runways we're seeing the plane from because of the runway markers
 
 #### What do we not see
