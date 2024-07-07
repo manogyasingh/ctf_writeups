@@ -4,7 +4,7 @@ Now that's a BIG plane! I wonder where it is. Flag format: uiuctf{plane type, co
 For coordinates, just omit the digits, do not round up. Precision is the same as the one in the example. The aircraft name is the same as Wikipedia page title. You can extract enough information from this image to answer this. You DO NOT need to register any accounts, all the information is public.
 
 Flag format clarification: The last digit of the first coordinate is even, and the last digit of the second coordinate is odd.
-![[chal.jpg]]
+![challenge](https://github.com/manogyasingh/ctf_writeups/blob/main/uiuctf24/MEDIA/chal.jpg)
 
 ## Solution
 
@@ -150,23 +150,23 @@ The Fleet Number is basically *the* treasure trove here. We can use any open sou
 
 Here let's try searching on `globe.adsbexchange.com`
 Entering the fleet number and the date, we get
-![[Pasted image 20240707210825.png]]
+![ADSB Exchange](https://github.com/manogyasingh/ctf_writeups/blob/main/uiuctf24/MEDIA/Pasted%20image%2020240707210825.png)
 
 Considering time zones, by 16:44 local time it would have landed on Seattle-Tacoma
 So we now know which airport this photo is from, the next step is simple, open Google Earth and try to match the exact spot. Thankfully there are some "hooks" which we can look for.
-![[Pasted image 20240707212431.png]]
+![Pasted image 20240707212431.png](https://github.com/manogyasingh/ctf_writeups/blob/main/uiuctf24/MEDIA/Pasted%20image%2020240707212431.png)
 We can try to look for this text
-![[Pasted image 20240707212505.png]]
+![](https://github.com/manogyasingh/ctf_writeups/blob/main/uiuctf24/MEDIA/Pasted%20image%2020240707212505.png)
 This color scheme may also help
 #### Pinpointing the location
 
-![[Pasted image 20240707212728.png]]
+![Pasted image 20240707212728.png](https://github.com/manogyasingh/ctf_writeups/blob/main/uiuctf24/MEDIA/Pasted%20image%2020240707212728.png)
 This one was literally the first building from the left, looking from the runways
 The other buildings with the striped pattern are also visible
 
-![[Pasted image 20240707213010.png]]
+![Pasted image 20240707213010.png](https://github.com/manogyasingh/ctf_writeups/blob/main/uiuctf24/MEDIA/Pasted%20image%2020240707213010.png)
 Recreating the view, the plane seems to be have been where the mark is.
 
 Now we'll convert the coordinates of the mark from DMS to DD
-![[Pasted image 20240707213231.png]]
-truncating it, we find our coordinates and therefore our flag: `UIUCTF{47.462, -122.303}`
+![DMS to DD](https://github.com/manogyasingh/ctf_writeups/blob/main/uiuctf24/MEDIA/Pasted%20image%2020240707213231.png)
+truncating it, we find our coordinates `47.462, -122.303` and therefore our flag: `UIUCTF{Boeing C-17 Globemaster III, 47.462, -122.303}`
